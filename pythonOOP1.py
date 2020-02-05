@@ -27,3 +27,9 @@ print(f'{newPerson.name} is {newPerson.age} years old')
 #Call the class function
 
 print(f'{newPerson.name} said that {newPerson.sayName()}')
+
+#Modify Object Properties
+
+newPerson.age = 30
+
+print(f'{newPerson.name} is now {newPerson.age}')
