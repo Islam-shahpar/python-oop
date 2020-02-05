@@ -8,6 +8,6 @@ Python OOP Learning
 - The self parameter
 - Modify object Properties
 - Delete object Properties
-- Delete Onjects
+- Delete Objects
 - The Pass Statements
 
