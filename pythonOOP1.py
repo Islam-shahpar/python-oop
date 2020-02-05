@@ -16,7 +16,7 @@ class Person:
 
 	def sayName(self):
 		print(f'My name is {self.name}')
-
+		return(f'My name is {self.name}')
 
 #Instanciate an object
 
@@ -24,3 +24,6 @@ newPerson = Person("Shahpar", 28)
 
 print(f'{newPerson.name} is {newPerson.age} years old')
 	
+#Call the class function
+
+print(f'{newPerson.name} said that {newPerson.sayName()}')
